@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/0961ff132b.js" crossorigin="anonymous"></script>
+    <script defer src="all.min.js" ></script>
+   
+    <style>
+        
+        nav{
+            background-color: orange;
+            font-size: x-large; 
+        }
+        nav a{
+            color: white;
+        }
+        nav a:hover{
+            background-color: black;
+            color: white;
+        }
+        .drop a{
+            color: white;
+        }
+        .big{
+            background-image: url(../images/hero-1.jpg.webp);
+            background-position: center;
+            background-size: cover;            
+            padding-top: 160px;
+            padding-bottom: 160px;
+            text-align: center;
+            font-size:35px;
+        }
+        .card{
+            align-content: center;
+        }
+        .btc{
+            background-color: orange;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+        }
+        .body{
+            
+            border: 1px dashed orange ;
+        }
+        h3{
+            color: orange;
+        }
+        .abs{
+            position: relative;
+        }
+        .ra{
+            position: absolute;
+            left: 30%;
+            bottom: 20%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: white;
+        }
+        .class{
+            background-color: rgb(241, 218, 175);
+            position: relative;
+        }
+        .class_vd{
+            width: 500px;
+            height: 700px ;
+            background-size: cover;
+            background-position: center;
+        }
+        .section_dark{
+            background-image: url(../images/footer-bg.jpg.webp);
+            background-position: center;
+            background-size: cover;        
+            padding-top: 100px;
+            padding-bottom: 80px;
+            margin-left: 0%;
+        }
+        .img_dark{
+            background-color: black;
+        }
+        .fo{
+            background: transparent;
+        }
+        .sweet{
+            font-size: 46px;
+            color: #111111;
+            line-height: 60px;
+            font-weight: 700;
+            font-style: italic;
+            font-family: "Playfair Display", serif;
+        }
+        .b_hov{
+            color: orange;
+        }
+        .foot:hover{
+            text-decoration: none;
+        }
+        .b_hov:hover{
+            background-color: orange;
+            color: white;
+            border-radius: 360px;
+            width: 70px;
+            height: 70px;
+            
+        }
+        .btn_menu{
+            position: absolute;
+            top: -58px;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-light py-4">
+        <div class=" text-md-center"><img src="../images/1.webp" alt=""></div>
+    </header>
+        
+    
+     <!--nav s -->
+    <nav class="navbar navbar-expand-md py-0">
+        <button class="navbar-toggler btn_menu" data-toggle="collapse" data-target="#head">
+            <!-- <span class="navbar-toggler-icon "></span> -->
+            Menu<i class="fa-solid fa-bars btn-outline" style="color: orange;"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="head" style="margin-right: 40px;">
+            <ul class="navbar-nav container">
+                <li class="nav-item ">
+                    <a class="nav-link" href="" style="padding-left: 20px;padding-left: 20px;">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="padding-left: 20px;padding-right: 20px;">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shope" style="padding-left: 20px;padding-right: 20px;">
+                        Shope
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" style="padding-left: 20px;padding-right: 20px;">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu drop bg-dark">
+                        <a href="" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Shop details</a>
+                        <a href="" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Shopping cart</a>
+                        <a href="" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Check out</a>
+                        <a href="" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Wisslist</a>
+                        <a href="" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Class</a>
+                        <a href="#blog" class="dropdown-item" style="padding-left: 20px;padding-right: 20px;">Blog Details</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="" style="padding-left: 20px;padding-right: 20px;">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" style="padding-left: 20px;padding-right: 20px;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--slide-->
+    <div class="big ">
+        <div class="carousel slide" id="slide">
+            <div class="crousel-inner">
+                <div class="carousel-item active">
+                    <img src="" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="" alt="">
+                </div>
+                
+            </div>
+            <div class="card container" style="width: 600px;">
+                <div class="card-body">
+                    <div class="body">
+                        <div class="card-title p-4"><b>Making your life sweeter in one bite at a time!</b></div>
+                        <a href="" class="btn btc mb-4">Our cakes</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#slide" class="carousel-control-next " data-slide="next">
+                <span class="carousel-control-next-icon bg-dark"></span>
+            </a>
+            <a href="#slide" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark"></span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--About-->
+    <div class="container" style="padding-top: 80px;" id="about">
+        <div class="row">
+            <h3 class="col-12">ABOUT CAKE SHOP</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 fon"><b style="font-size: 40px;font-style: italic;font-family: Playfair Display">Cakes and bakes from the house of Queens!</b><br style="margin: 20px;">
+            
+                The "Cake Shop" is a Jordanian Brand that started as a small family business. The owners are Dr. Iyad Sultan and Dr. Sereen Sharabati, supported by a staff of 80 employees.
+            </div>
+            <div class="col-lg-6"><b style="padding-right: 74%;">CAKE DESIGN</b>90% 
+                <div class="progress">
+                    <div class="progress-bar bg-dark progress-bar-animated" style="width: 95%;" ></div>
+                </div><br>              
+                <b style="padding-right: 60%;">CAKE CLASS</b>75% 
+                <div class="progress">
+                    <div class="progress-bar bg-dark progress-bar-animated" style="width: 80%;" ></div>
+                </div><br>       
+                <div><b style="padding-right: 68%;">CAKE RECIPES</b>90%
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" style="width: 90%;"></div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+        <br><br><br>
+
+
+
+
+
+
+
+        <!--swipe-->
+        <div class="container" style="height: 50px;font-size: xx-large;">
+            <div class="row text-center">
+                
+                <div class="col-lg-3 col-md-6 b_hov ">
+                    BISCUIT
+                </div>
+                         
+                        
+                <div class="col-lg-3 col-md-6 b_hov">
+                    DONUT
+                </div>
+                        
+                            
+                <div class="col-lg-3 col-md-6 b_hov" >
+                    CUPCAKE
+                </div>
+                            
+                            
+                <div class="col-lg-3 col-md-6 b_hov" >
+                    BUTTER
+                </div>
+                   
+                        
+                        <!-- <i class="bi bi-apple"></i> -->
+            </div>  
+            <br><hr style="background-color: orange;"> 
+        </div><br><br><br>
+                   
+                    </div>
+
+
+
+        <!--curds-->
+        <div class="container text-center " id="shope">
+            <div class="row">
+                <div class="col-lg-3 col-md-6  my-4">
+                    <div class="card border-0">
+                        <img src="../images/product-1.jpg.webp" class="card-img-top abs" alt="">
+                        <div class="card-header ra">cupcake</div>
+                        <div><br><br> DOZEN CUPCAKE</div>
+                        <div>32.00$</div>
+                    </div>
+                </div>
+                
+                    <div class="col-lg-3 col-md-6  my-4">
+                        <div class="card border-0 ">
+                            <img src="../images/product-2.jpg.webp" class="card-img-top abs" alt="">
+                            <div class="card-header ra">cupcake</div>
+                            <div><br><br> COOKIES AND CREAM</div> 
+                            <div>30.00$</div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-lg-3 col-md-6  my-4">
+                        <div class="card border-0 ">
+                            <img src="../images/product-3.jpg.webp" class="card-img-top abs" alt="">
+                            <div class="card-header ra">cupcake</div>
+                            <div><br><br> GLUTEN FREE MINI DOZEN</div>
+                            <div>31.00$</div> 
+                        </div>
+                    </div>
+                
+                
+                
+                    <div class="col-lg-3 col-md-6  my-4">
+                        <div class="card border-0 ">
+                            <img src="../images/product-8.jpg.webp" class="card-img-top abs" alt="">
+                            <div class="card-header ra">cupcake</div>
+                            <div><br><br> COOKIE DOUGH</div>
+                            <div>25.00$</div> 
+                        </div>
+                    </div>
+                </div>
+                
+            
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6  my-4">
+                    <div class="card border-0 ">
+                        <img src="../images/product-5.jpg.webp" class="card-img-top abs" alt="">
+                        <div class="card-header ra">cupcake</div>
+                        <div><br><br> VANILLA SALTED CARAMEL</div>
+                        <div>05.00$</div>
+                    </div>
+                </div>
+            
+            
+            
+                <div class="col-lg-3 col-md-6 col-12 my-4">
+                    <div class="card border-0 ">
+                        <img src="../images/product-6.jpg.webp" class="card-img-top abs" alt="">
+                        <div class="card-header ra">cupcake</div>
+                        <div><br><br> GERMAN CHOCOLATE</div> 
+                        <div>14.00$</div>
+                    </div>
+                </div>
+                
+            
+            
+                <div class="col-lg-3 col-md-6 col-12 my-4">
+                    <div class="card border-0 ">
+                        <img src="../images/product-7.jpg.webp" class="card-img-top abs" alt="">
+                        <div class="card-header ra">cupcake</div>
+                        <div><br><br> DULCE DE LECHE</div>
+                        <div>32.00$</div> 
+                    </div>
+                </div>
+                
+            
+            
+                <div class="col-lg-3 col-md-6 col-12 my-4">
+                    <div class="card border-0 ">
+                        <img src="../images/product-8.jpg.webp" class="card-img-top abs" alt="">
+                        <div class="card-header ra">cupcake</div>
+                        <div><br><br> MISSISSIPPI MUD</div>
+                        <div>08.00$</div> 
+                    </div>
+                </div>
+            </div>                    
+            
+        </div>
+
+
+
+
+
+
+        <!--form-->
+        <section class="class" style="padding-bottom: 50px;" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <h3 style="color: orange;padding-top: 100px;">CLASS CAKES</h3>
+                        <h1 style="font-family: Playfair Display;font-size: 4rem;"><b><i>Made from your own hands</i></b></h1>
+                        <form action="" class="form-group">
+                            <input  style="width: 100%;height: 50px;" type="text" placeholder="Name" class="my-4"><br>
+                            <input  style="width: 100%;height: 50px;" type="text" placeholder="Phone" class="my-4"><br>
+                            <select  style="width: 100%;height: 50px;" name="studying" id="" class="my-4">
+                                <option value="" style="background-color: black;color: white;">Studying Class</option>
+                                <option value="" style="background-color: black;color: white;">Writing Class</option>
+                                <option value="" style="background-color: black;color: white;">Reading Class</option>
+                            </select><br>
+                            <input type="text" name="" id="" style="width: 100%;height: 50px;" placeholder="type your requirements"><br><br>
+                            <input style="width: 100%;height: 50px;background-color: black;color: white;" type="submit" value="Registration" class="bg-drak">
+                        </form>
+                    </div>
+                    <!-- <div class="col-lg-6 class-vd" style="background-position: center;">
+                        <img src="TP4_Bootstrap/images/class-video.jpg.webp" alt="">
+                    </div> -->
+                    <div class="class_vd"  style="background-image: url(../images/class-video.jpg.webp);">
+                       
+                        </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!--our team-->
+        <div class="container" style="padding-top: 100px;">
+            <div class="row">
+                <div class="col-lg-10 col-sm-12">
+                    <h3>OUR TEAM</h3>
+                    <h1 style="font-family: Playfair Display;font-size: 50px;padding-bottom: 20px;"><b><i>Sweet Baker</i></b></h1>
+                </div>
+                <div class="col-lg-2 ">
+                    <button style="padding-top: 10PX;padding-bottom: 10px;padding-left: 30px;padding-right: 30px; background-color: white;align-items: left;margin-bottom: 40px;">JOIN US</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 ">
+                    <img src="../images/team-1.jpg.webp" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <img src="../images/team-2.jpg.webp" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <img src="../images/team-3.jpg.webp" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <img src="../images/team-4.jpg.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- follow on instagram-->
+        <div class="container " style="padding-top: 100px;padding-bottom: 100px;">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12" >
+                    <h3 class="mt-5 " style="color: orange;">FOLLOW US ON INSTAGRAM</h3>
+                    <p class="sweet">Sweet moments are saved as memories.</p>
+                    <h5>
+                        <i class="bi bi-instagram"></i>
+                        @sweetcake
+                    </h5>
+                </div>
+                <div class="col-lg-8 col-sm-12 ">
+                    <div class="row text-center">
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2"><img src="../images/xinstagram-1.jpg.pagespeed.ic.VmtKp5fSrW.webp" alt="" style="margin-bottom: 30px;"></div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2 mt-lg-3"><img src="../images/xinstagram-2.jpg.pagespeed.ic.XWParAL3e4.webp" alt="" style="margin-bottom: 30px;"></div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2"><img src="../images/xinstagram-3.jpg.pagespeed.ic.p8xgTFmeEf.webp" alt="" style="margin-bottom: 30px;"></div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2"><img src="../images/xinstagram-4.jpg.pagespeed.ic._zLuHuQLVu.webp" alt="" style="margin-bottom: 30px;"></div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2 mt-lg-3"><img src="../images/xinstagram-5.jpg.pagespeed.ic.dRzrx5E52n.webp" alt="" style="margin-bottom: 30px;"></div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-6 mb-2"><img src="../images/xinstagram-1.jpg.pagespeed.ic.VmtKp5fSrW.webp" alt="" style="margin-bottom: 30px;"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+        <!--section dark-->
+        <div class="img_dark" id="blog">
+            <div class="section_dark">
+                <div class="container text-left">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <h2><font color="white">WOKING HOURS</font></h2>
+                            <h5 class="text-secondary">Monday-Friday:08:00 am-08:30 pm</h5>
+                            <h5 class="text-secondary">Saturday:10:00 am-16:30 pm</h5>
+                            <h5 class="text-secondary">Sunday:10:00 am-16:30 pm</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <img class="text-center" src="../images/xfooter-logo.png.pagespeed.ic.igCN1RkZC1.webp" alt="">
+                            <h5 class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequatur cumque culpa eius quas voluptate beatae ut ipsa iure, voluptas nisi quod, itaque ratione impedit ex, recusandae voluptatibus incidunt error.</h5>
+                            <b style="margin-top: 20px;"><i class="text-white fa-brands fa-facebook mx-4"></i><i class="fa-brands fa-instagram text-white mx-4"></i><i class="text-white fa-brands fa-twitter mx-4"></i><i class="text-white fa-brands fa-youtube mx-4"></i></b>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h2><font color="white">SUBSCRIBE</font></h2>
+                            <h5 class="text-secondary">Get latest updates and offers.</h5>
+                            <form action="">
+                                <input type="email" class="fo text-warning" placeholder="EMAIL"><i style="color: orange;" class=" fa-solid fa-paper-plane"></i>
+                            </form>
+                        </div>
+                    </div>                
+                </div>                   
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!--footer-->
+        <footer style="background-color: black;text-align: center;color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7  py-2">
+                        Copyright ©2022 All rights reserved | This template is made with<i style="color: orange;" class="fa-solid fa-heart"></i>by<a href="#" style="color: orange;">Asmae Aliti</a>
+                    </div>
+                    <div class="col-lg-5 ">
+                        <ul class="breadcrumb fo">
+                            <li class="breadcrumb-item"><a class="text-secondary foot" href="#">Accueil</a></li>
+                            <li class="breadcrumb-item"><a class="text-secondary foot" href="#">maintenance</a></li>
+                            <li class="breadcrumb-item"><a class="text-secondary foot" href="#">Galerie</a></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    <script src="jquery-3.6.0.min.js" ></script>
+    <script src="bootstrapjs.js"></script>
+</body>
+</html>
